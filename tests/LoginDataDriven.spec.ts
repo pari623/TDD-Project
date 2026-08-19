@@ -8,7 +8,7 @@ import { MyAccountPage } from '../pages/MyAccountPage';
 let homePage:HomePage;
 let loginPage:LoginPage;
 let config:TestConfig;
-let myAccountPage:MyAccountPage;
+let myAccountPage:MyAccountPage; 
 
 const jsonPath = 'testdata/logindata.json';
 const jsonTestData = DataProvider.getTestDataFromJson(jsonPath);
@@ -40,10 +40,10 @@ for(const data of cvsTestData)
         const errorMsg = await loginPage.getLoginErrorMsg();
         expect(errorMsg).toContain("Warning: No match for E-Mail")
     }
-
-    console.log("Login test with JSON data Passed!");
-
 });
+
+
+// Data Driven Test using CSV data
 
 test(`Login Test With CSV Data: ${data.testName}`, async({page})=>
 {
@@ -67,16 +67,7 @@ test(`Login Test With CSV Data: ${data.testName}`, async({page})=>
         expect(errorMsg).toContain("Warning: No match for E-Mail Address");
     }
 
-    console.log("Login Test with CSV Data Passed!");
 
-})
-
-
-
-
-
-
-
-
+});
 
 }
