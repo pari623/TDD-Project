@@ -25,7 +25,6 @@ test.beforeEach(async({page})=>
     loginPage = new LoginPage(page);
     myAccountPage = new MyAccountPage(page);
     await page.goto(config.appUrl);
-    await page.waitForTimeout(1000);
   
 });
 
