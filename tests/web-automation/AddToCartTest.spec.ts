@@ -12,10 +12,10 @@ Test Steps:
  */
 
 import {test,expect} from '@playwright/test';
-import { TestConfig } from '../test.config';
-import { HomePage } from '../pages/HomePage';
-import { ProductPage } from '../pages/ProductPage';
-import { SearchResultPage } from '../pages/SearchResultPage';
+import { TestConfig } from '../../test.config';
+import { HomePage } from '../../pages/HomePage';
+import { ProductPage } from '../../pages/ProductPage';
+import { SearchResultPage } from '../../pages/SearchResultPage';
 
 let config:TestConfig;
 let homePage:HomePage;

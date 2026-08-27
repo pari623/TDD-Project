@@ -6,9 +6,9 @@
  4.Verify if the product is displayed in the search result
  */
 import {test, expect} from '@playwright/test';
-import {TestConfig} from '../test.config';
-import {HomePage} from '../pages/HomePage';
-import { SearchResultPage } from '../pages/SearchResultPage';
+import {TestConfig} from '../../test.config';
+import {HomePage} from '../../pages/HomePage';
+import { SearchResultPage } from '../../pages/SearchResultPage';
 
 let config:TestConfig;
 let homePage:HomePage;

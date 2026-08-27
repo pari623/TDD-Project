@@ -6,10 +6,10 @@
  * 4) Verify 'My Account' page
  */ 
 import {test,expect} from '@playwright/test';
-import { HomePage } from '../pages/HomePage';
-import { LoginPage } from '../pages/LoginPage';
-import { MyAccountPage } from '../pages/MyAccountPage';
-import {TestConfig} from '../test.config';
+import { HomePage } from '../../pages/HomePage';
+import { LoginPage } from '../../pages/LoginPage';
+import { MyAccountPage } from '../../pages/MyAccountPage';
+import {TestConfig} from '../../test.config';
 
 let config:TestConfig;
 let homePage:HomePage;
