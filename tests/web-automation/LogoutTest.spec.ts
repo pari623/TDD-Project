@@ -9,11 +9,11 @@
  * 7) Verify user is redirected to Home Page
  */
 import {test,expect} from '@playwright/test';
-import { HomePage } from '../pages/HomePage';
-import { LoginPage } from '../pages/LoginPage';
-import { TestConfig } from '../test.config';
-import { MyAccountPage } from '../pages/MyAccountPage';
-import { LogoutPage } from '../pages/LogoutPage';
+import { HomePage } from '../../pages/HomePage';
+import { LoginPage } from '../../pages/LoginPage';
+import { TestConfig } from '../../test.config';
+import { MyAccountPage } from '../../pages/MyAccountPage';
+import { LogoutPage } from '../../pages/LogoutPage';
 
 let config: TestConfig;
 let homePage: HomePage;

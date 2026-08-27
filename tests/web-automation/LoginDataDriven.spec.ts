@@ -1,9 +1,9 @@
 import {test, expect} from '@playwright/test';
-import {HomePage} from '../pages/HomePage';
-import {LoginPage} from '../pages/LoginPage';
-import {TestConfig} from '../test.config';
-import {DataProvider} from '../utils/dataProvider';
-import { MyAccountPage } from '../pages/MyAccountPage';
+import {HomePage} from '../../pages/HomePage';
+import {LoginPage} from '../../pages/LoginPage';
+import {TestConfig} from '../../test.config';
+import {DataProvider} from '../../utils/dataProvider';
+import { MyAccountPage } from '../../pages/MyAccountPage';
 
 let homePage:HomePage;
 let loginPage:LoginPage;

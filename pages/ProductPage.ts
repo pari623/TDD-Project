@@ -1,5 +1,4 @@
 import {Page, Locator} from '@playwright/test';
-import {ShoppingCartPage} from '../pages/ShoppingCartPage';
 
 export class ProductPage{
 
@@ -47,7 +46,7 @@ async clickItemsToNavigateToCart()
 async clickViewCart()
 {
   await this.viewCartTab.click();
-  return new ShoppingCartPage(this.page);
+  
 }
 
 }
