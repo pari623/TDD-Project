@@ -1,0 +1,11 @@
+{
+  bookingid: 528,
+  booking: {
+    firstname: 'Preston',
+    lastname: 'Bernhard',
+    totalprice: 207,
+    depositpaid: false,
+    bookingdates: { checkin: '2026-08-28', checkout: '2026-09-02' },
+    additionalneeds: 'Super bowls'
+  }
+}

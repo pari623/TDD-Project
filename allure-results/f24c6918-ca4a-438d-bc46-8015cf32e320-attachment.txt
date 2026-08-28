@@ -1,0 +1,11 @@
+{
+  bookingid: 4358,
+  booking: {
+    firstname: 'Caleb',
+    lastname: 'Dach',
+    totalprice: 361,
+    depositpaid: true,
+    bookingdates: { checkin: '2026-08-28', checkout: '2026-09-02' },
+    additionalneeds: 'Super bowls'
+  }
+}
