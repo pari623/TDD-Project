@@ -80,5 +80,4 @@ expect(deleteREsponse.status()).toBe(201);
 expect(deleteREsponse.statusText()).toBe("Created");
 console.log("Booking details are deleted");
 
-
 })
