@@ -13,10 +13,7 @@ test("Update Booking - Create,Get, Partial update, Update and Delete a Booking R
 
 // Step 1: Create a new booking using POST request
   const requestBody = readJson("testdata/post_request_body.json");
-  const response = await request.post(`${BASE_URL}/booking`,{
-    headers: { "Content-Type": "application/json" },
-    data: JSON.stringify(requestBody)
-  });
+  const response = await request.post(`${BASE_URL}/booking`,{data:requestBody});
   const responseBody = await response.json();
   const bookingId =  responseBody.bookingid; // get booking id from json response body
 
@@ -79,5 +76,6 @@ const deleteREsponse = await request.delete(`${BASE_URL}/booking/${bookingId}`,{
 expect(deleteREsponse.status()).toBe(201);
 expect(deleteREsponse.statusText()).toBe("Created");
 console.log("Booking details are deleted");
+
 
 })
