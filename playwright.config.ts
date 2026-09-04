@@ -14,7 +14,7 @@ reporter: [
       outputFolder: 'reports/allure-results'
     }
 ],
-['dot'],
+//['dot'],
 ['list']
 ],
 use: {
